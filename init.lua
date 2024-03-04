@@ -828,6 +828,6 @@ require('lazy').setup {
 vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit, { desc = 'Opens LazyGit within NeoVim' })
 -- TODO: make this a toggle instead of just opening
 vim.keymap.set('n', '<leader>e', '<cmd>Neotree toggle last<cr><esc>', { desc = 'Toggles Neo-Tree file tree' })
-vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<cmd>w<cr><esc>', { desc = 'Save file' })
+vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<cmd>wa<cr><esc>', { desc = 'Save file' })
 -- TODO: add quitting guard from lazyvim with y, n, cancel selections for saving before quitting
 vim.keymap.set('n', '<leader>qq', '<cmd>qa<cr>', { desc = 'Quit all' })
