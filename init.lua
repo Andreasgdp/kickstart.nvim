@@ -151,6 +151,8 @@ vim.opt.scrolloff = 10
 -- TODO: Add a UI overhall that brabs output from e.g. this and presents it neatly like e.g. lazyvim
 vim.opt.confirm = true -- Confirm to save changes before exiting modified buffer
 
+vim.opt.expandtab = true -- Use spaces instead of tabs
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
