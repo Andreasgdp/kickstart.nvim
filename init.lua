@@ -819,3 +819,7 @@ require('lazy').setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+-- Personal keymaps
+-- TODO: Move these keymaps to it's own file at some point
+vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit, { desc = 'Opens LazyGit within NeoVim' })
