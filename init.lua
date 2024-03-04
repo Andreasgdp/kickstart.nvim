@@ -820,8 +820,9 @@ require('lazy').setup {
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 
--- Personal keymaps
+-- Personal keymaps inspiration from (https://github.com/LazyVim/LazyVim/blob/91126b9896bebcea9a21bce43be4e613e7607164/lua/lazyvim/config/keymaps.lua#L68)
 -- TODO: Move these keymaps to it's own file at some point
 vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit, { desc = 'Opens LazyGit within NeoVim' })
 -- TODO: make this a toggle instead of just opening
 vim.keymap.set('n', '<leader>e', vim.cmd.Neotree, { desc = 'Toggles Neo-Tree file tree' })
+vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<cmd>w<cr><esc>', { desc = 'Save file' })
