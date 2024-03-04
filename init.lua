@@ -148,6 +148,9 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- TODO: Add a UI overhall that brabs output from e.g. this and presents it neatly like e.g. lazyvim
+vim.opt.confirm = true -- Confirm to save changes before exiting modified buffer
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
