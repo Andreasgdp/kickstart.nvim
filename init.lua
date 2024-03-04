@@ -148,6 +148,7 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Following options are inspired from (https://github.com/LazyVim/LazyVim/blob/91126b9896bebcea9a21bce43be4e613e7607164/lua/lazyvim/config/options.lua)
 -- TODO: Add a UI overhall that brabs output from e.g. this and presents it neatly like e.g. lazyvim
 vim.opt.confirm = true -- Confirm to save changes before exiting modified buffer
 
