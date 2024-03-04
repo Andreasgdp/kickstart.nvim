@@ -823,3 +823,5 @@ require('lazy').setup {
 -- Personal keymaps
 -- TODO: Move these keymaps to it's own file at some point
 vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit, { desc = 'Opens LazyGit within NeoVim' })
+-- TODO: make this a toggle instead of just opening
+vim.keymap.set('n', '<leader>e', vim.cmd.Neotree, { desc = 'Toggles Neo-Tree file tree' })
